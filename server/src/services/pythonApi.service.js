@@ -4,7 +4,7 @@ const PYTHON_API_URL = process.env.PYTHON_API_URL || "http://localhost:8000";
 
 const client = axios.create({
   baseURL: PYTHON_API_URL,
-  timeout: 15000,
+  timeout: 60000,
 });
 
 export const getMetadata = async () => {
