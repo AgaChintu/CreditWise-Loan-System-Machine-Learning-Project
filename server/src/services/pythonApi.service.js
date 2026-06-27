@@ -3,9 +3,7 @@ import axios from "axios";
 const PYTHON_API_URL = process.env.PYTHON_API_URL || "http://localhost:8000";
 
 const client = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL 
-  ? import.meta.env.VITE_API_BASE_URL.replace(/\/$/, '') + '/api'
-  : "http://localhost:5000/api",
+  baseURL: PYTHON_API_URL,   // ← yahi toh banaya tha line 3 pe!
   timeout: 60000,
 });
 
