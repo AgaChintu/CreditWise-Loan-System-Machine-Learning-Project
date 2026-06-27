@@ -34,7 +34,7 @@ const Footer = () => {
             >
               <FaInstagram />
             </a>
-            <a href="#" aria-label="GitHub" className="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-slate-700 transition-colors">
+            <a href="https://github.com/AgaChintu/CreditWise-Loan-System-Machine-Learning-Project" aria-label="GitHub" className="w-9 h-9 rounded-full bg-slate-800 flex items-center justify-center hover:bg-slate-700 transition-colors">
               <FaGithub />
             </a>
           </div>
