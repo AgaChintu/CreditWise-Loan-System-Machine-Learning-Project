@@ -31,4 +31,3 @@ Thumbs.db
 
 # ML artifacts (regenerate with train.py — not committed by default)
 # Comment this out if you want to commit pre-trained models
-python-api/artifacts/*.joblib
