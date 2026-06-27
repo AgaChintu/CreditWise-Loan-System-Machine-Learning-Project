@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Build output
+dist/
+build/
+
+# Python
+venv/
+.venv/
+*.egg-info/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# ML artifacts (regenerate with train.py — not committed by default)
+# Comment this out if you want to commit pre-trained models
+python-api/artifacts/*.joblib
